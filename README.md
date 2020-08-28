@@ -4,3 +4,6 @@
 This is my learning project used to explore features of Spring and Hibernate as well as their configurations.
 
 ![img1](https://github.com/nemanjajokic/SpringMVC-Hibernate-Blog/blob/master/preview/img1.png)
+![img2](https://github.com/nemanjajokic/SpringMVC-Hibernate-Blog/blob/master/preview/img2.png)
+![img3](https://github.com/nemanjajokic/SpringMVC-Hibernate-Blog/blob/master/preview/img3.png)
+![img4](https://github.com/nemanjajokic/SpringMVC-Hibernate-Blog/blob/master/preview/img4.png)
