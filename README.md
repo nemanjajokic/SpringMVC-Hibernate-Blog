@@ -21,16 +21,16 @@ Username and password auth with Spring Security, registered user can perform CRU
 5. Run application
 
 * File to modify **hibernate.cfg.xml** (in `src\main\java`) contain database configuration: database driver, url, name, username/password...
-```
-    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.password">panzer</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/blog</property>
-    <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-    <property name="hbm2ddl.auto">update</property>
-    <property name="show_sql">true</property>
-    <property name="format_sql">true</property>
-```
+<pre>
+&lt;property name="hibernate.connection.driver_class"&gt;<b>com.mysql.jdbc.Driver</b>&lt;/property&gt;
+&lt;property name="hibernate.connection.password"&gt;<b>panzer</b>&lt;/property&gt;
+&lt;property name="hibernate.connection.url"&gt;<b>jdbc:mysql://localhost:3306/blog</b>&lt;/property&gt;
+&lt;property name="hibernate.connection.username"&gt;<b>root</b>&lt;/property&gt;
+&lt;property name="hibernate.dialect"&gt;<b>org.hibernate.dialect.MySQLDialect</b>&lt;/property&gt;
+&lt;property name="hbm2ddl.auto"&gt;update&lt;/property&gt;
+&lt;property name="show_sql"&gt;true&lt;/property&gt;
+&lt;property name="format_sql"&gt;true&lt;/property&gt;
+</pre>
 ## Some other images
 #### [Create new post](preview/img2.png)
 #### [My Posts page](preview/img3.png)
