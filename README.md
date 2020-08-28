@@ -14,6 +14,11 @@ Username and password auth with Spring Security, registered user can perform CRU
 * Apache Tomcat(probably works on other web servers too, maybe requires minor modifications)
 
 ## Development
+1. Get the project files(`git clone https://github.com/nemanjajokic/SpringMVC-Hibernate-Blog.git` or download and extract zip archive)
+2. Download all dependencies
+3. Open the project in STS or in other IDE
+4. Configure Hibernate src/main/java/hibernate.cfg.xml according to your settings.
+5. Run application
 
 ## Some other images
 #### [Create new post](preview/img2.png)
