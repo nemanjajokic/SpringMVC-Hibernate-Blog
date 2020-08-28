@@ -3,6 +3,8 @@
 
 This is my learning project used to explore features of Spring and Hibernate as well as their configurations.
 
+Username and password auth with Spring Security, registered user can perform CRUD operations on blog posts, users can also search for particular posts by title.
+
 <img src="https://github.com/nemanjajokic/SpringMVC-Hibernate-Blog/blob/master/preview/img1.png">
 
 ## Requirements
