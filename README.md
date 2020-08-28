@@ -33,5 +33,5 @@ Username and password auth with Spring Security, registered user can perform CRU
 </pre>
 ## Some other images
 #### [Create new post](preview/img2.png)
-#### [My Posts page](preview/img3.png)
-#### [Home page](preview/img4.png)
+#### [Home page](preview/img3.png)
+#### [My Posts page](preview/img4.png)
