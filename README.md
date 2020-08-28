@@ -20,16 +20,17 @@ Username and password auth with Spring Security, registered user can perform CRU
 4. Configure Hibernate src/main/java/hibernate.cfg.xml according to your settings.
 5. Run application
 
-* **datasource-&lt;profile&gt;.xml** files (in `src\main\resources directory`) contain database configuration: database driver, address, name, username/password, ...
-<pre><property name="hibernate.connection.driver_class"><b>com.mysql.jdbc.Driver</b></property>
-     <property name="hibernate.connection.password"><b>panzer</b></property>
-     <property name="hibernate.connection.url"><b>jdbc:mysql://localhost:3306/blog</b></property>
-     <property name="hibernate.connection.username"><b>root</b></property>
-     <property name="hibernate.dialect"><b>org.hibernate.dialect.MySQLDialect</b></property>
-     <property name="hbm2ddl.auto">update</property>
-     <property name="show_sql">true</property>
-     <property name="format_sql">true</property>
-           ...</pre>
+* File to modify **hibernate.cfg.xml** (in `src\main\java`) contain database configuration: database driver, url, name, username/password...
+<pre>
+<property name="hibernate.connection.driver_class"><b>com.mysql.jdbc.Driver</b></property>
+<property name="hibernate.connection.password"><b>panzer</b></property>
+<property name="hibernate.connection.url"><b>jdbc:mysql://localhost:3306/blog</b></property>
+<property name="hibernate.connection.username"><b>root</b></property>
+<property name="hibernate.dialect"><b>org.hibernate.dialect.MySQLDialect</b></property>
+<property name="hbm2ddl.auto">update</property>
+<property name="show_sql">true</property>
+<property name="format_sql">true</property>
+</pre>
 ## Some other images
 #### [Create new post](preview/img2.png)
 #### [My Posts page](preview/img3.png)
