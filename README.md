@@ -13,7 +13,7 @@ This is my learning project used to explore features of Spring and Hibernate as 
 
 ## Development
 
-## More Images
-#### [Create Blog](preview/img2.png)
+## Some other images
+#### [Create new post](preview/img2.png)
 #### [My Posts page](preview/img3.png)
 #### [Home page](preview/img4.png)
