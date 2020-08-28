@@ -22,11 +22,11 @@ Username and password auth with Spring Security, registered user can perform CRU
 
 * File to modify **hibernate.cfg.xml** (in `src\main\java`) contain database configuration: database driver, url, name, username/password...
 
-    <property name="hibernate.connection.driver_class">**com.mysql.jdbc.Driver**</property>
-    <property name="hibernate.connection.password">**panzer**</property>
-    <property name="hibernate.connection.url">**jdbc:mysql://localhost:3306/blog**</property>
-    <property name="hibernate.connection.username"><b>root</b></property>
-    <property name="hibernate.dialect">**org.hibernate.dialect.MySQLDialect**</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.password">panzer</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/blog</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hbm2ddl.auto">update</property>
     <property name="show_sql">true</property>
     <property name="format_sql">true</property>
