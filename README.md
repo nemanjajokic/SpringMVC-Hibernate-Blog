@@ -21,7 +21,7 @@ Username and password auth with Spring Security, registered user can perform CRU
 5. Run application
 
 * File to modify **hibernate.cfg.xml** (in `src\main\java`) contain database configuration: database driver, url, name, username/password...
-
+```
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.password">panzer</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/blog</property>
@@ -30,7 +30,7 @@ Username and password auth with Spring Security, registered user can perform CRU
     <property name="hbm2ddl.auto">update</property>
     <property name="show_sql">true</property>
     <property name="format_sql">true</property>
-
+```
 ## Some other images
 #### [Create new post](preview/img2.png)
 #### [My Posts page](preview/img3.png)
